@@ -95,3 +95,115 @@ header nav a {
     text-align: center;
     z-index: 1;
 }
+
+/* Section */
+section {
+    padding: 50px;
+}
+
+section .section_content {
+    display: flex;
+    margin-left: 200px;
+    margin-top: 40px;
+}
+
+section h2 {
+    font-size: 54px;
+    margin-top: 80px;
+}
+
+section h2::after {
+    content: "";
+    height: 16px;
+    width: 80px;
+    display: block;
+    background: #07050d;
+    position: absolute;
+}
+
+.colored {
+    background-color:#3d3a3c;
+}
+
+.colored h2 {
+    color: #fdfdfd;
+}
+
+.colored h2::after {
+    background: #fdfdfd;
+}
+
+.colored .section_content p {
+    color: #fdfdfd;
+}
+
+/* About Me */
+section .about_me {
+    display: flex;
+    gap: 20px;
+}
+
+section .about_me .left img {
+    max-width: 200px;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* My Project */
+section .my_proj {
+    display: flex;
+    gap: 20px;
+}
+
+section .my_proj .left img {
+    max-width: auto;
+    height: 200px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Skills */
+section .skills {
+    margin-left: 200px;
+    margin-top: 40px;
+}
+
+section h3 {
+    font-size: 30px;
+    margin-top: 10px;
+}
+
+section .skills_content {
+    display: flex;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.skills_img {
+    height: auto;
+    width: 100px;
+    margin-right: 10px;
+}
+
+/* Contact */
+
+footer {
+    padding-top: 20px;
+    background: #3d3a3c;
+}
+
+footer h2 {
+    margin-left: 80px;
+    color: #fdfdfd;
+}
+
+footer .contacts {
+    text-align: center;
+}
+
+footer .contacts p {
+    color: #fdfdfd;
+    margin: 0;
+    padding: 0;
+}
