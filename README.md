@@ -2,7 +2,9 @@
 
 
 Full Name: Michael Kenn B. Tafere
+
 Degree Program: BS Computer Science
+
 Website Link: <Link> https://cmsc100-laboratory.github.io/02-my-github-page-mbtafere/
 
 Steps to Create Github pages:
